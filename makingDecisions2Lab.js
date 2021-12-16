@@ -32,7 +32,7 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 
 //Code Here
 
-for (i = 0; i < 5; i++){
+for (let i = 0; i < 5; i++){
   console.log(family[i])
 }
 
@@ -49,7 +49,7 @@ let evensArr = []
 
 //Code Here
 
-for (i = 0; i < nums.length; i++){
+for (let i = 0; i < nums.length; i++){
   if (nums [i] % 2 === 0){
     evensArr.push(nums[i])
   }
@@ -104,6 +104,11 @@ console.log(someNum)
 
 //Code Here
 
+if (myFavoriteNumbers.length < 7){
+  console.log("There is not enough elements in this array")
+} else{
+  someNum = myFavoriteNumbers[6]
+}
 
 ////////// PROBLEM 8 //////////
 
